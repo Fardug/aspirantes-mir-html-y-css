@@ -11,7 +11,7 @@
 }
 
 input[type=email], 
-input[type=password], select{
+input[type=password]{
 
     padding-top: 7px;
     padding-bottom: 7px;
@@ -24,13 +24,24 @@ input[type=submit] {
 
     padding: 5px 15px 5px 15px;
     right: 20px;
-    position: absolute;    
+    position: absolute;
+    
 }
 span{
     white-space: pre-wrap; 
 }
+select {
+    margin-bottom: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 0px; 
+    padding-right: 0px; 
+    white-space: pre-wrap;
+    width: 100%;
+}
+
 @media only screen and (max-width: 500px){
     .box {
-   width: 100%; 
+   width: 90%; 
 }
 }
