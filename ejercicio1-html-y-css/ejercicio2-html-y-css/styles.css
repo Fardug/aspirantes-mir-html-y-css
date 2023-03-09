@@ -1,0 +1,37 @@
+.box{
+
+    width: 300px;
+    padding: 20px ;
+    border-radius:  20px;
+    margin: 0 auto;
+    background-image: linear-gradient( #bd09b7, #6b4cf5);
+    box-shadow: 5px 5px 20px 10px #333;
+    color: white;
+    position: relative;
+}
+
+input[type=email], 
+input[type=password], select{
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;   
+    width: 293px;
+    
+}
+input[type=submit] {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    right: 7px;
+    ;
+
+
+}
+@media (min-width: 500px){ .box {
+   width: 300px; }
+}
